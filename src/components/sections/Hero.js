@@ -72,7 +72,7 @@ const Hero = ({
                   <Button tag="a" color="primary" wideMobile href="https://oscvitap.org/" target="_blank">
                     Register
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://discord.com" target="_blank">
+                  <Button tag="a" color="dark" wideMobile href="http://discord.link/TechEden" target="_blank">
                     Event Platform
                     </Button>
                 </ButtonGroup>
