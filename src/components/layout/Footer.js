@@ -45,7 +45,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">Tech Eden 2021.</div>
+            <div className="footer-copyright">techeden.help@gmail.com</div>
           </div>
         </div>
       </div>
