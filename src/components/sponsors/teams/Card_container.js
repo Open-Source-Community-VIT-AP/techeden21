@@ -13,6 +13,7 @@ function Card_container() {
         {Sponsors.map((card) =>(
           <Card
           imgurl = {card.imgurl}
+          redirect = {card.redirect}
           />
         ))}
       </div>
