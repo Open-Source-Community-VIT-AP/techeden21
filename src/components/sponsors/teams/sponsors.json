@@ -1,41 +1,54 @@
 [
     {
-        "imgurl":"https://i.ibb.co/Wk7ryF4/Devfolio.png"
+        "imgurl":"https://i.ibb.co/Wk7ryF4/Devfolio.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/MPnjGPr/Polygon.png"
+        "imgurl":"https://i.ibb.co/MPnjGPr/Polygon.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/gd1dTv5/Portis.png"
+        "imgurl":"https://i.ibb.co/gd1dTv5/Portis.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/wBBZ0nZ/Tezos-Logo-Colored.png"
+        "imgurl":"https://i.ibb.co/wBBZ0nZ/Tezos-Logo-Colored.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/NjRsNBD/Celo.png"
+        "imgurl":"https://i.ibb.co/NjRsNBD/Celo.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/3pF6k14/Coding-Blocks.png"
+        "imgurl":"https://i.ibb.co/3pF6k14/Coding-Blocks.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/L6PZbCC/wolfram-logo.png"
+        "imgurl":"https://i.ibb.co/L6PZbCC/wolfram-logo.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/r3SgX1q/taskade.png"
+        "imgurl":"https://i.ibb.co/r3SgX1q/taskade.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/vjLtddH/repltit.png"
+        "imgurl":"https://i.ibb.co/vjLtddH/repltit.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/4t0Jf94/GFG.png"
+        "imgurl":"https://i.ibb.co/4t0Jf94/GFG.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/qN1Ln8t/Egghead-io.png"
+        "imgurl":"https://i.ibb.co/qN1Ln8t/Egghead-io.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/ZdDTtD5/CNLOGO.png"
+        "imgurl":"https://i.ibb.co/ZdDTtD5/CNLOGO.png",
+        "redirect":"#"
       },
       {
-        "imgurl":"https://i.ibb.co/Wtm5SVC/balsamiq.png"
+        "imgurl":"https://i.ibb.co/Wtm5SVC/balsamiq.png",
+        "redirect":"#"
       }
 ]
