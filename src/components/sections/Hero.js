@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
-import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
-import Timeline from '../timtline/event_time_line'
-import Sponsors from '../sponsors/sponsors'
+import React, { useState } from "react";
+import classNames from "classnames";
+import { SectionProps } from "../../utils/SectionProps";
+import ButtonGroup from "../elements/ButtonGroup";
+import Button from "../elements/Button";
+import Image from "../elements/Image";
+import Modal from "../elements/Modal";
+import Timeline from "../timtline/event_time_line";
+import Sponsors from "../sponsors/sponsors";
 
 const propTypes = {
-  ...SectionProps.types
-}
+  ...SectionProps.types,
+};
 
 const defaultProps = {
-  ...SectionProps.defaults
-}
+  ...SectionProps.defaults,
+};
 
 const Hero = ({
   className,
@@ -26,60 +26,97 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
     e.preventDefault();
     setVideomodalactive(true);
-  }
+  };
 
   const closeModal = (e) => {
     e.preventDefault();
     setVideomodalactive(false);
-  }   
+  };
 
   const outerClasses = classNames(
-    'hero section center-content',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
+    "hero section center-content",
+    topOuterDivider && "has-top-divider",
+    bottomOuterDivider && "has-bottom-divider",
+    hasBgColor && "has-bg-color",
+    invertColor && "invert-color",
     className
   );
 
   const innerClasses = classNames(
-    'hero-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
+    "hero-inner section-inner",
+    topDivider && "has-top-divider",
+    bottomDivider && "has-bottom-divider"
   );
 
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "<https://apply.devfolio.co/v2/sdk.js>";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
+    <section {...props} className={outerClasses}>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1
+              className="mt-0 mb-16 reveal-from-bottom"
+              data-reveal-delay="200"
+            >
               Hack + <span className="text-color-primary">Code</span>
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+              <p
+                className="m-0 mb-32 reveal-from-bottom"
+                data-reveal-delay="400"
+              >
                 25th April, 2021 - 2nd May, 2021
-                </p>
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#" target="_blank">
-                    Hackathon
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="http://discord.link/TechEden" target="_blank">
+                  {/* <div
+                    class="apply-button"
+                    data-hackathon-slug="slug"
+                    data-button-theme="light"
+                    style="height: 44px; width: 312px"
+                  ></div> */}
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="#"
+                    target="_blank"
+                  >
+                    Apply with Devfolio
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="dark"
+                    wideMobile
+                    href="http://discord.link/TechEden"
+                    target="_blank"
+                  >
                     Discord
-                    </Button>
-                    <Button tag="a" color="primary" wideMobile href="#" target="_blank">
+                  </Button>
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href="#"
+                    target="_blank"
+                  >
                     Codeathon
-                    </Button>
+                  </Button>
                 </ButtonGroup>
               </div>
             </div>
@@ -107,14 +144,13 @@ const Hero = ({
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" /> */}
 
-            <Timeline/>
+          <Timeline />
         </div>
-
       </div>
-      <Sponsors/>
+      <Sponsors />
     </section>
   );
-}
+};
 
 Hero.propTypes = propTypes;
 Hero.defaultProps = defaultProps;
