@@ -4,7 +4,6 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
-import mail from './mail.png';
 
 
 const propTypes = {
@@ -46,9 +45,8 @@ const Footer = ({
             <Logo />
             {/* <FooterSocial /> */}
             
-            <a href = "mailto: techeden.help@gmail.com?" >
-            <img src={mail} alt="techeden.help@gmail.com" />
-            
+            <a href = "mailto:techeden.help@gmail.com?">  
+                Mail us at <b>techeden.help@gmail.com</b>
             </a>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
