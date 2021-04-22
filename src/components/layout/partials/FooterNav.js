@@ -19,7 +19,7 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to='//oscvitap.org/contact'>Contact</Link>
+          <p>TechEden 2021</p>
         </li>
       </ul>
     </nav>

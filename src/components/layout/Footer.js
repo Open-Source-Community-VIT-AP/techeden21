@@ -39,13 +39,14 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
+            <hr />
           <div className="footer-top space-between text-xxs">
             <Logo />
-            <FooterSocial />
+            {/* <FooterSocial /> */}
+            <div className="footer-copyright">Mail us at: techeden.help@gmail.com</div>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            {/* <FooterNav /> */}
-            <div className="footer-copyright">techeden.help@gmail.com</div>
+            <FooterNav />
           </div>
         </div>
       </div>
