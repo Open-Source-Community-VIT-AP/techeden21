@@ -76,12 +76,9 @@ const Hero = ({
               Hack + <span className="text-color-primary">Code</span>
             </h1>
             <div className="container-xs">
-              <p
-                className="m-0 mb-32 reveal-from-bottom"
-                data-reveal-delay="400"
-              >
-                25th April, 2021 - 2nd May, 2021
-              </p>
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                26th April, 2021 - 2nd May, 2021
+                </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   {/* <div
