@@ -6,6 +6,7 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import Timeline from '../timtline/event_time_line'
+import Sponsors from '../sponsors/sponsors'
 
 const propTypes = {
   ...SectionProps.types
@@ -108,7 +109,9 @@ const Hero = ({
 
             <Timeline/>
         </div>
+
       </div>
+      <Sponsors/>
     </section>
   );
 }
