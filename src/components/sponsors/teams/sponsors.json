@@ -1,24 +1,5 @@
 [
-    {
-      "imgurl":"https://i.ibb.co/Wk7ryF4/Devfolio.png",
-      "redirect":"https://devfolio.co/"
-    },
-    {
-      "imgurl":"https://i.ibb.co/MPnjGPr/Polygon.png",
-      "redirect":"https://polygon.technology/"
-    },
-    {
-      "imgurl":"https://i.ibb.co/gd1dTv5/Portis.png",
-      "redirect":"https://www.portis.io/"
-    },
-    {
-      "imgurl":"https://i.ibb.co/wBBZ0nZ/Tezos-Logo-Colored.png",
-      "redirect":"https://tezos.com/"
-    },
-    {
-      "imgurl":"https://i.ibb.co/NjRsNBD/Celo.png",
-      "redirect":"https://celo.org/"
-    },
+
     {
       "imgurl":"https://i.ibb.co/3pF6k14/Coding-Blocks.png",
       "redirect":"https://codingblocks.com/"
@@ -35,17 +16,10 @@
       "imgurl":"https://i.ibb.co/vjLtddH/repltit.png",
       "redirect":"https://repl.it/"
     },
-    {
-      "imgurl":"https://i.ibb.co/4t0Jf94/GFG.png",
-      "redirect":"https://www.geeksforgeeks.org/"
-    },
+
     {
       "imgurl":"https://i.ibb.co/qN1Ln8t/Egghead-io.png",
       "redirect":"https://egghead.io/"
-    },
-    {
-      "imgurl":"https://i.ibb.co/ZdDTtD5/CNLOGO.png",
-      "redirect":"https://www.codingninjas.com/"
     },
     {
       "imgurl":"https://i.ibb.co/Wtm5SVC/balsamiq.png",
