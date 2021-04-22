@@ -5,6 +5,7 @@ import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
 
+
 const propTypes = {
   topOuterDivider: PropTypes.bool,
   topDivider: PropTypes.bool
@@ -43,7 +44,10 @@ const Footer = ({
           <div className="footer-top space-between text-xxs">
             <Logo />
             {/* <FooterSocial /> */}
-            <div className="footer-copyright">Mail us at: techeden.help@gmail.com</div>
+            
+            <a href = "mailto:techeden.help@gmail.com?">  
+                Mail us at <b>techeden.help@gmail.com</b>
+            </a>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
