@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+.main_sponsors{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.main_sponsors p{
+    padding: 10px;
+}
+.flex_container_sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
