@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -63,11 +64,11 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                    <Image
+                    <a href="https://www.dscvitap.com/" target="_blank"><Image
                       src={require('./../../assets/images/logod.png')}
                       alt="Features tile icon 02"
                       width={220}
-                      height={220} />
+                      height={220} /></a>
                 </div>
               </div>
             </div>
@@ -75,11 +76,11 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                    <Image
+                    <a href="https://www.oscvitap.org/" target="_blank"><Image
                       src={require('./../../assets/images/logoo.png')}
                       alt="Features tile icon 02"
                       width={300}
-                      height={300} />
+                      height={300} /></a>
                 </div>
               </div>
             </div>
@@ -87,11 +88,11 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                    <Image
+                <a href="https://www.codechef.com/campus_chapter/VITAP_Chapter/" target="_blank"><Image
                       src={require('./../../assets/images/logoc.png')}
                       alt="Features tile icon 02"
                       width={160}
-                      height={160} />
+                      height={160} /></a>
                 </div>
               </div>
             </div>
