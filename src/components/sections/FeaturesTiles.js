@@ -66,8 +66,8 @@ const FeaturesTiles = ({
                     <Image
                       src={require('./../../assets/images/logod.png')}
                       alt="Features tile icon 02"
-                      width={120}
-                      height={120} />
+                      width={220}
+                      height={220} />
                 </div>
               </div>
             </div>
@@ -78,8 +78,8 @@ const FeaturesTiles = ({
                     <Image
                       src={require('./../../assets/images/logoo.png')}
                       alt="Features tile icon 02"
-                      width={200}
-                      height={200} />
+                      width={300}
+                      height={300} />
                 </div>
               </div>
             </div>
@@ -90,8 +90,8 @@ const FeaturesTiles = ({
                     <Image
                       src={require('./../../assets/images/logoc.png')}
                       alt="Features tile icon 02"
-                      width={100}
-                      height={100} />
+                      width={160}
+                      height={160} />
                 </div>
               </div>
             </div>
