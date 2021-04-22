@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import Timeline from '../timtline/event_time_line'
 
 const propTypes = {
   ...SectionProps.types
@@ -69,11 +70,14 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://oscvitap.org/" target="_blank">
-                    Register
+                  <Button tag="a" color="primary" wideMobile href="#" target="_blank">
+                    Hackathon
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="http://discord.link/TechEden" target="_blank">
-                    Event Platform
+                    Discord
+                    </Button>
+                    <Button tag="a" color="primary" wideMobile href="#" target="_blank">
+                    Codeathon
                     </Button>
                 </ButtonGroup>
               </div>
@@ -101,6 +105,8 @@ const Hero = ({
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" /> */}
+
+            <Timeline/>
         </div>
       </div>
     </section>
