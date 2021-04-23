@@ -91,7 +91,7 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="#"
+                    href="https://techeden.devfolio.co/"
                     target="_blank"
                   >
                     Apply with Devfolio
