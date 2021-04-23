@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
@@ -53,7 +53,7 @@ const Hero = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  React.useEffect(() => {
+  useEffect(() => {
     const script = document.createElement("script");
     script.src = "<https://apply.devfolio.co/v2/sdk.js>";
     script.async = true;
@@ -80,6 +80,16 @@ const Hero = ({
                 26th April, 2021 - 2nd May, 2021
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
+
+              <div
+                    className="apply-button"
+                    data-hackathon-slug="techeden"
+                    data-button-theme="dark-inverted"
+                    style={{height: "44px", width: "312px"}}
+                  ></div>
+                <ButtonGroup>
+                  {/* <Button
+
                 <ButtonGroup>
                   {/* <div
                     class="apply-button"
@@ -87,7 +97,7 @@ const Hero = ({
                     data-button-theme="light"
                     style="height: 44px; width: 312px"
                   ></div> */}
-                  <Button
+    {/*<Button
                     tag="a"
                     color="primary"
                     wideMobile
@@ -95,7 +105,7 @@ const Hero = ({
                     target="_blank"
                   >
                     Apply with Devfolio
-                  </Button>
+                  </Button>*/}
                   <Button
                     tag="a"
                     color="dark"
