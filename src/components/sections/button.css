@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+.buttondiv{
+    height: 44px;
+    width: 312px;
+    background-color: #3770FF;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.buttondiv img {
+    margin-left: 45px !important;
+    margin-right: 10px !important;
+
+}
