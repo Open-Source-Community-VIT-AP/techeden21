@@ -88,7 +88,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                <a href="https://www.codechef.com/campus_chapter/VITAP_Chapter/" target="_blank"><Image
+                <a href="https://www.codechef.com/college-chapter/member" target="_blank"><Image
                       src={require('./../../assets/images/logoc.png')}
                       alt="Features tile icon 02"
                       width={160}

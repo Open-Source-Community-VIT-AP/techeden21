@@ -80,6 +80,7 @@ const Hero = ({
                 26th April, 2021 - 2nd May, 2021
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
+
               <div
                     className="apply-button"
                     data-hackathon-slug="techeden"
@@ -88,14 +89,23 @@ const Hero = ({
                   ></div>
                 <ButtonGroup>
                   {/* <Button
+
+                <ButtonGroup>
+                  {/* <div
+                    class="apply-button"
+                    data-hackathon-slug="slug"
+                    data-button-theme="light"
+                    style="height: 44px; width: 312px"
+                  ></div> */}
+    {/*<Button
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="#"
+                    href="https://techeden.devfolio.co/"
                     target="_blank"
                   >
                     Apply with Devfolio
-                  </Button> */}
+                  </Button>*/}
                   <Button
                     tag="a"
                     color="dark"
@@ -109,10 +119,9 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="#"
                     target="_blank"
                   >
-                    Codeathon
+                    Codeathon - Open Soon
                   </Button>
                 </ButtonGroup>
               </div>
