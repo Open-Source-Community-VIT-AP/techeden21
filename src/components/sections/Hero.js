@@ -81,13 +81,13 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <div
-                    className="apply-button"
-                    data-hackathon-slug="techeden"
+                  {/* <div
+                    class="apply-button"
+                    data-hackathon-slug="slug"
                     data-button-theme="light"
-                    style={{height: "44px", width: "312px"}}
-                  ></div>
-                  {/* <Button
+                    style="height: 44px; width: 312px"
+                  ></div> */}
+                  <Button
                     tag="a"
                     color="primary"
                     wideMobile
@@ -95,7 +95,7 @@ const Hero = ({
                     target="_blank"
                   >
                     Apply with Devfolio
-                  </Button> */}
+                  </Button>
                   <Button
                     tag="a"
                     color="dark"
