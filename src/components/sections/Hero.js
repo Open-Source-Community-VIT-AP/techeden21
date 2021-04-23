@@ -7,7 +7,8 @@ import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import Timeline from "../timtline/event_time_line";
 import Sponsors from "../sponsors/sponsors";
-
+import devfolio from './devfolio.jpg';
+import './button.css'
 const propTypes = {
   ...SectionProps.types,
 };
@@ -53,16 +54,16 @@ const Hero = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "<https://apply.devfolio.co/v2/sdk.js>";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "<https://apply.devfolio.co/v2/sdk.js>";
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   return (
     <section {...props} className={outerClasses}>
@@ -81,13 +82,11 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
 
-              <div
-                    className="apply-button"
-                    data-hackathon-slug="techeden"
-                    data-button-theme="dark-inverted"
-                    style={{height: "44px", width: "312px"}}
-                  ></div>
                 <ButtonGroup>
+              <a className = "buttondiv" target = "_blank" href = "https://techeden.devfolio.co/">
+                <img src = {devfolio} style = {{height : "30px"}}/> 
+                <h5>Apply with Devfolio</h5>
+              </a>
                   {/* <Button
 
                 <ButtonGroup>
