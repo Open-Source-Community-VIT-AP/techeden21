@@ -32,7 +32,7 @@ function sponsors() {
 
             <br/>
             <br/>
-            <SectionHeader data={sectionHeader} className="center-content mt30" />
+            <SectionHeader data={sectionHeader} className="center-content mt10" />
             <SectionHeader data={platinumSponsorsheading} className="center-content mt10" />
             <PlatinumSponsors/>
             <br/>
