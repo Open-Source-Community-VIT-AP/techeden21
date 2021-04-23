@@ -5,7 +5,7 @@ import PlatinumSponsors from './teams/PlatinumSponsors'
 import KnowledgePartner from './teams/KnowledgePartner'
 import CodingPartner from './teams/CodingPartner'
 const sectionHeader = {
-  title: 'Our Sponsors',
+  title: <span className="text-color-primary">Our Sponsors</span>,
   
 };
 const platinumSponsorsheading = {
@@ -32,7 +32,7 @@ function sponsors() {
 
             <br/>
             <br/>
-            <SectionHeader data={sectionHeader} className="center-content mt10" />
+            <SectionHeader data={sectionHeader} className="center-content mt30" />
             <SectionHeader data={platinumSponsorsheading} className="center-content mt10" />
             <PlatinumSponsors/>
             <br/>
