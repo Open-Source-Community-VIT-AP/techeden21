@@ -109,10 +109,9 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="#"
                     target="_blank"
                   >
-                    Codeathon
+                    Codeathon - Open Soon
                   </Button>
                 </ButtonGroup>
               </div>
