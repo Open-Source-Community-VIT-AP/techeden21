@@ -7,7 +7,7 @@ import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import Timeline from "../timtline/event_time_line";
 import Sponsors from "../sponsors/sponsors";
-import devfolio from './devfolio.jpg';
+import devfolio from './devfolio.svg';
 import './button.css'
 const propTypes = {
   ...SectionProps.types,
@@ -84,7 +84,7 @@ const Hero = ({
 
                 <ButtonGroup>
               <a className = "buttondiv" target = "_blank" href = "https://techeden.devfolio.co/">
-                <img src = {devfolio} style = {{height : "30px"}}/> 
+                <img src = {devfolio}/> 
                 <h5>Apply with Devfolio</h5>
               </a>
                   {/* <Button
