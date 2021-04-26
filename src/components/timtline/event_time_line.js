@@ -57,7 +57,7 @@ function event_time_line() {
             <SectionHeader data={sectionHeader}  style={{margintop:'150px '}} className="center-content mt10" />
             <Timeline  theme={completed}>
               <Events>
-                <TextEvent date="26th April, 2021" text="**Bootcamp** " />
+                <TextEvent date="06:00 PM on 26th April, 2021" text="**Bootcamp** " />
                <br/>
                <br/>
               </Events>
