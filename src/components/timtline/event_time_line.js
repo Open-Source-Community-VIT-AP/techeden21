@@ -70,23 +70,25 @@ function event_time_line() {
           <TextEvent date="06:00 PM on 26th April, 2021" text="**Bootcamp** ">
             <div>
               <UrlButton
-                target="_blank"
-                href="https://www.airmeet.com/e/fc1c9c30-a58c-11eb-9aaa-d9f2706c1dfc"
+                
+                href="#"
               >
-                <b>Enter</b>
+                <b>Completed</b>
               </UrlButton>
             </div>
           </TextEvent>
+          <br />
+          <br />
+          <br />
+          <br />
+          <TextEvent date="27th April to 1st May, 2021" text="**Hackathon**" />
           <br />
           <br />
         </Events>
       </Timeline>
       <Timeline theme={customTheme}>
         <Events>
-          <br />
-          <TextEvent date="27th April to 1st May, 2021" text="**Hackathon**" />
-          <br />
-          <br />
+
           <br />
           <br />
 
