@@ -118,9 +118,10 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
+                    href = "https://www.codingninjas.com/events/code-a-thon-vit-ap-university"
                     target="_blank"
                   >
-                    Codeathon - Open Soon
+                    Register for Codeathon
                   </Button>
                 </ButtonGroup>
               </div>
