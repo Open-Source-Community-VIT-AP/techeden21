@@ -28,6 +28,15 @@ const customTheme = createTheme(themes.default, {
   timelineTrack: {
     backgroundColor: "#6B6DFF",
   },
+  urlButton: {
+    fontSize: "14px",
+    backgroundColor: "#6B6DFF",
+    borderRadius: "4px",
+    padding: "6px 30px",
+    margin: "10px 0px 5px 0",
+    border: "none",
+    color: "#fff",
+  },
 });
 const completed = createTheme(themes.default, {
   card: {
