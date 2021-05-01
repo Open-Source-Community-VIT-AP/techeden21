@@ -100,7 +100,7 @@ function event_time_line() {
       </Timeline>
       <Timeline theme={customTheme}>
         <Events>
-          <TextEvent date="2nd May, 2021" text="**Competitive Programming Contest** ">
+          <TextEvent date="7:00 PM to 10:00 PM on 2nd May, 2021" text="**Competitive Programming Contest** ">
             <div>
               <UrlButton
                 target="_blank"
