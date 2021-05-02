@@ -86,8 +86,6 @@ function event_time_line() {
           </TextEvent>
           <br />
           <br />
-          <br />
-          <br />
           <TextEvent date="27th April to 1st May, 2021" text="**Hackathon** ">
           <div>
               <UrlButton href="https://techeden.devfolio.co/">
