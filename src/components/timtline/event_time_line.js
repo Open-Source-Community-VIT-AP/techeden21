@@ -97,16 +97,12 @@ function event_time_line() {
           </TextEvent>
           <br />
           <br />
-        </Events>
-      </Timeline>
-      <Timeline theme={customTheme}>
-        <Events>
           <TextEvent date="7:00 PM to 10:00 PM on 2nd May, 2021" text="**Competitive Programming Contest** ">
             <div>
               <UrlButton
                 target="_blank"
                 href="https://www.codingninjas.com/events/code-a-thon-vit-ap-university">
-                <b>Enter</b>
+                <b>Completed</b>
               </UrlButton>
             </div>
           </TextEvent>
