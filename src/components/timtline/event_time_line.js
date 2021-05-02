@@ -20,7 +20,8 @@ const customTheme = createTheme(themes.default, {
     backgroundColor: "#efefef",
   },
   date: {
-    backgroundColor: "#6B6DFF",
+    backgroundColor: "#efefef",
+    color: "#000000"
   },
   marker: {
     borderColor: "#6B6DFF",
