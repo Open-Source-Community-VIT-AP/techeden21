@@ -108,6 +108,20 @@ function event_time_line() {
           <br />
         </Events>
       </Timeline>
+    <Timeline theme={customTheme}>
+        <Events>
+
+          <br />
+          <br />
+
+          <TextEvent
+            date="10th May, 2021"
+            text="**Result Announcement**"
+          />
+          <br />
+          <br />
+        </Events>
+      </Timeline>
     </div>
   );
 }
