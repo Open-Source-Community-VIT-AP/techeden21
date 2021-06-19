@@ -88,10 +88,10 @@ function event_time_line() {
           <br />
           <TextEvent date="27th April to 1st May, 2021" text="**Hackathon** ">
           <div>
-              <UrlButton href="https://techeden.devfolio.co/">
-                <b>Completed</b>
-              </UrlButton>
-            </div>
+            <UrlButton href="https://techeden.devfolio.co/">
+              <b>Completed</b>
+            </UrlButton>
+          </div>
           </TextEvent>
           <br />
           <br />
@@ -107,17 +107,14 @@ function event_time_line() {
           <br />
           <br />
         </Events>
-      </Timeline>
-    <Timeline theme={customTheme}>
         <Events>
-
-          <br />
-          <br />
-
-          <TextEvent
-            date="10th May, 2021"
-            text="**Result Announcement**"
-          />
+          <TextEvent date="10th May, 2021" text="**Result Announcement**">
+          <div>
+            <UrlButton href="#">
+              <b>Completed</b>
+            </UrlButton>
+          </div>
+          </TextEvent>
           <br />
           <br />
         </Events>
