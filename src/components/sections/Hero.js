@@ -7,8 +7,8 @@ import Image from "../elements/Image";
 import Modal from "../elements/Modal";
 import Timeline from "../timtline/event_time_line";
 import Sponsors from "../sponsors/sponsors";
-import devfolio from './devfolio.svg';
-import './button.css'
+import devfolio from "./devfolio.svg";
+import "./button.css";
 const propTypes = {
   ...SectionProps.types,
 };
@@ -71,22 +71,31 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1
-              className="mt-0 mb-16 reveal-from-bottom"
+              className="mt-0 mb-32 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              Hack + <span className="text-color-primary">Code</span>
+              <span className="text-color-primary">2022 TechEden </span>
+              Coming Soon!
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                26th April, 2021 - 2nd May, 2021
-                </p>
+              <h1
+                className="mt-64 mb-32 reveal-from-bottom"
+                data-reveal-delay="200"
+              >
+                Hack + <span className="text-color-primary">Code</span>
+              </h1>
+              {/* <p
+                className="m-0 mb-32 reveal-from-bottom"
+                data-reveal-delay="400"
+              >
+                2022 TechEden Coming Soon!
+              </p> */}
               <div className="reveal-from-bottom" data-reveal-delay="600">
-
                 <ButtonGroup>
-              <a className = "buttondiv" target = "_blank" href = "https://techeden.devfolio.co/">
+                  {/* <a className = "buttondiv" target = "_blank" href = "https://techeden.devfolio.co/">
                 <img src = {devfolio}/> 
                 <h5>Apply with Devfolio</h5>
-              </a>
+              </a> */}
                   {/* <Button
 
                 <ButtonGroup>
@@ -96,7 +105,7 @@ const Hero = ({
                     data-button-theme="light"
                     style="height: 44px; width: 312px"
                   ></div> */}
-    {/*<Button
+                  {/*<Button
                     tag="a"
                     color="primary"
                     wideMobile
@@ -107,14 +116,14 @@ const Hero = ({
                   </Button>*/}
                   <Button
                     tag="a"
-                    color="dark"
+                    color="light"
                     wideMobile
                     href="http://discord.link/TechEden"
                     target="_blank"
                   >
-                    Discord
+                    Join Our Discord
                   </Button>
-                  <Button
+                  {/* <Button
                     tag="a"
                     color="primary"
                     wideMobile
@@ -122,7 +131,7 @@ const Hero = ({
                     target="_blank"
                   >
                     Register for Codeathon
-                  </Button>
+                  </Button> */}
                 </ButtonGroup>
               </div>
             </div>

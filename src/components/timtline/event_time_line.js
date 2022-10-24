@@ -12,7 +12,7 @@ import {
 
 import SectionHeader from "../sections/partials/SectionHeader";
 const sectionHeader = {
-  title: "Timeline",
+  title: "Timeline - 2021",
 };
 
 const customTheme = createTheme(themes.default, {
@@ -21,7 +21,7 @@ const customTheme = createTheme(themes.default, {
   },
   date: {
     backgroundColor: "#efefef",
-    color: "#000000"
+    color: "#000000",
   },
   marker: {
     borderColor: "#6B6DFF",
@@ -87,19 +87,23 @@ function event_time_line() {
           <br />
           <br />
           <TextEvent date="27th April to 1st May, 2021" text="**Hackathon** ">
-          <div>
-            <UrlButton href="https://techeden.devfolio.co/">
-              <b>Completed</b>
-            </UrlButton>
-          </div>
+            <div>
+              <UrlButton href="https://techeden.devfolio.co/">
+                <b>Completed</b>
+              </UrlButton>
+            </div>
           </TextEvent>
           <br />
           <br />
-          <TextEvent date="7:00 PM to 10:00 PM on 2nd May, 2021" text="**Competitive Programming Contest** ">
+          <TextEvent
+            date="7:00 PM to 10:00 PM on 2nd May, 2021"
+            text="**Competitive Programming Contest** "
+          >
             <div>
               <UrlButton
                 target="_blank"
-                href="https://www.codingninjas.com/events/code-a-thon-vit-ap-university">
+                href="https://www.codingninjas.com/events/code-a-thon-vit-ap-university"
+              >
                 <b>Completed</b>
               </UrlButton>
             </div>
@@ -109,11 +113,11 @@ function event_time_line() {
         </Events>
         <Events>
           <TextEvent date="10th May, 2021" text="**Result Announcement**">
-          <div>
-            <UrlButton href="#">
-              <b>Completed</b>
-            </UrlButton>
-          </div>
+            <div>
+              <UrlButton href="#">
+                <b>Completed</b>
+              </UrlButton>
+            </div>
           </TextEvent>
           <br />
           <br />
