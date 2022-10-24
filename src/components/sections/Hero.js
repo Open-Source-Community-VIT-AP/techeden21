@@ -118,7 +118,7 @@ const Hero = ({
                     tag="a"
                     color="light"
                     wideMobile
-                    href="http://discord.link/TechEden"
+                    href="https://discord.gg/5pFRb8Aa46"
                     target="_blank"
                   >
                     Join Our Discord
