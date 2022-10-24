@@ -71,18 +71,25 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1
-              className="mt-0 mb-16 reveal-from-bottom"
+              className="mt-0 mb-32 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              Hack + <span className="text-color-primary">Code</span>
+              <span className="text-color-primary">2022 TechEden </span>
+              Coming Soon!
             </h1>
             <div className="container-xs">
-              <p
+              <h1
+                className="mt-64 mb-32 reveal-from-bottom"
+                data-reveal-delay="200"
+              >
+                Hack + <span className="text-color-primary">Code</span>
+              </h1>
+              {/* <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
                 2022 TechEden Coming Soon!
-              </p>
+              </p> */}
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   {/* <a className = "buttondiv" target = "_blank" href = "https://techeden.devfolio.co/">
@@ -109,12 +116,12 @@ const Hero = ({
                   </Button>*/}
                   <Button
                     tag="a"
-                    color="dark"
+                    color="light"
                     wideMobile
                     href="http://discord.link/TechEden"
                     target="_blank"
                   >
-                    Discord
+                    Join Our Discord
                   </Button>
                   {/* <Button
                     tag="a"
